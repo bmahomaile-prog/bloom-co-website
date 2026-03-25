@@ -1,0 +1,151 @@
+/* General page styling */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  line-height: 1.6;
+  background-color: #fffafc; /* soft background */
+  color: #333;
+  padding: 10px 0;
+}
+
+/* Navigation bar */
+header {
+  background: #8b2f5c; /* deep rose color */
+  color: #fff;
+  padding: 10px 0;
+}
+
+.nav-menu {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-menu li {
+  margin: 0 15px;
+}
+
+.nav-menu a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.nav-menu a:hover {
+  text-decoration: underline;
+}
+
+/* Hero section on Home page */
+.hero {
+  text-align: center;
+  padding: 50px;
+  background: #fce4ec; /* light pink */
+}
+
+.hero h1 {
+  font-size: 2.5em;
+  color: #8b2f5c;
+}
+
+/* Content sections */
+.content {
+  padding: 20px;
+   background: #fce4ec; /* light pink */
+}
+
+.content h2, .content h3 {
+  color: #8b2f5c;
+}
+body {
+  background-color: #fce4ec; /* light pink */
+  margin: 0;
+  padding: 0;
+}
+
+/* Product grid */
+.product-grid {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.product {
+  border: 1px solid #ddd;
+  padding: 15px;
+  text-align: center;
+  background: #fce4ec; /* light pink */;
+  flex: 1;
+}
+
+.product img {
+  width: 200px;
+  height: auto;
+  border-radius: 8px;
+}
+
+/* Contact form */
+form {
+  max-width: 400px;
+  margin: 20px auto;
+   background: #fce4ec; /* light pink */
+  padding: 20px;
+  border-radius: 8px;
+}
+
+form input, form textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+form button {
+  background: #8b2f5c;
+  color: #fff;
+  border: none;
+  padding: 10px 15px;
+  cursor: pointer;
+}
+
+form button:hover {
+  background: #6a1b3b;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  padding: 20px;
+  background: #8b2f5c;
+  color: #fff;
+  margin-top: 20px;
+}
+/* Responsive design for smaller screens */
+@media (max-width: 768px) {
+  .nav-menu {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .nav-menu li {
+    margin: 10px 0;
+  }
+
+  .hero {
+    padding: 20px;
+  }
+
+  .product-grid {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .product {
+    width: 90%;
+    margin-bottom: 20px;
+  }
+
+  form {
+    width: 90%;
+  }
+}
